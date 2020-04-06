@@ -11,12 +11,12 @@ This is the results I get from my implementation on CNN/dailyMail data set at 27
 
 The training loss is as follows:
 
-<img src="train_loss.png" width="500" height="500">
+<img src="train_loss.png" width="400" height="400">
 
 The validation loss is as follows:
 
 
-<img src="val_loss.png" width="500" height="500">
+<img src="val_loss.png" width="400" height="400">
 
 
 
