@@ -384,17 +384,17 @@ class DataGenerator(object):
 	def __init__(self, path_to_dataset, max_inp_seq_len, max_out_seq_len, vocab, use_pgen=False, use_sample=False):
 		# Train files.
 
-		self.train_files = glob.glob('../data_and_utils/data/train/*.sents.txt')
+		self.train_files = glob.glob('data/train/*.sents.txt')
 		self.num_train_examples = len(self.train_files)
 		shuffle(self.train_files)
 
 		# Validation files.
-		self.val_files = glob.glob('../data_and_utils/data/val/*.sents.txt')
+		self.val_files = glob.glob('data/val/*.sents.txt')
 		self.num_val_examples = len(self.val_files)
 		shuffle(self.val_files)
 
 		# Test files.
-		self.test_files = glob.glob('../data_and_utils/data/test/*.sents.txt')
+		self.test_files = glob.glob('data/test/*.sents.txt')
 		self.num_test_examples = len(self.test_files)
 		# shuffle(self.test_files)
 
