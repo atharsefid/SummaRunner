@@ -1,7 +1,6 @@
 import numpy
 import logging
 import sys
-sys.path.append('../data_and_utils')
 from batch_data_utils import *
 import codecs
 import time
@@ -16,10 +15,10 @@ tf.set_random_seed(2019)
 
 time1 = time.time()
 graph = tf.Graph()
-vocab = Vocab(params.max_vocab_size, emb_dim=50, dataset_path='../data_and_utils/data/', glove_path='../glove.6B/glove.6B.50d.txt',
-								 vocab_path='../data_and_utils/data_files/vocab.txt', lookup_path='../data_and_utils/data_files/lookup.pkl')
+vocab = Vocab(params.max_vocab_size, emb_dim=50, dataset_path='data/', glove_path='glove.6B/glove.6B.50d.txt',
+								 vocab_path='data_files/vocab.txt', lookup_path='data_files/lookup.pkl')
 
-dg = DataGenerator('../data_and_utils/data/', params.max_inp_seq_len, params.max_out_seq_len, vocab, use_pgen=False, use_sample=False)
+dg = DataGenerator('data/', params.max_inp_seq_len, params.max_out_seq_len, vocab, use_pgen=False, use_sample=False)
 with graph.as_default():
 		session_conf = tf.ConfigProto(allow_soft_placement=True, log_device_placement=False)
 		sess = tf.Session(config=session_conf)
