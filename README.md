@@ -11,13 +11,12 @@ This is the results I get from my implementation on CNN/dailyMail data set at 27
 
 The training loss is as follows:
 
-![](train_loss.png)
+<img src="train_loss.png" width="500" height="500">
 
 The validation loss is as follows:
 
-![](val_loss.png)
 
-<img src="val_loss.png" width="400" height="790">
+<img src="val_loss.png" width="500" height="500">
 
 
 
