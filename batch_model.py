@@ -2,7 +2,6 @@ import tensorflow as tf
 from tensorflow.python import debug as tfdbg
 tf.autograph.set_verbosity(0)
 import sys
-sys.path.append('../data_and_utils')
 from params import *
 from batch_data_utils import *
 
