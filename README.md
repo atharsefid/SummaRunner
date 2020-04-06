@@ -1,5 +1,6 @@
-## SummaRunner
-# This is my implementation of the Extractive [SummaRuNNer: A Recurrent Neural Network based Sequence Model for Extractive Summarization of Documents](https://arxiv.org/abs/1611.04230). 
+# SummaRunner
+## This is my implementation for the famous Extractive Summarizer:
+###[SummaRuNNer: A Recurrent Neural Network based Sequence Model for Extractive Summarization of Documents (https://arxiv.org/abs/1611.04230). 
 
 This is the results I get from my implementation on CNN/dailyMail data set at 275 byte. 
 
@@ -9,10 +10,10 @@ This is the results I get from my implementation on CNN/dailyMail data set at 27
 | SummaRuNNer | 33.86 | 11.55 | 29.85 |
 
 The training loss is as follows:
-![train loss](train_loss.png)
+![](train_loss.png)
 
 The validation loss is as follows:
-![validation loss](val_loss.png)
+![](val_loss.png)
 
 
 
