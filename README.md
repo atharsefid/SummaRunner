@@ -10,10 +10,10 @@ This is the results I get from my implementation on CNN/dailyMail data set at 27
 | SummaRuNNer | 33.86 | 11.55 | 29.85 |
 
 The training loss is as follows:
-![](train_loss.png | width=100)
+![](train_loss.png){:height="50%" width="50%"}
 
 The validation loss is as follows:
-![](val_loss.png | width=100)
+![](val_loss.png){:height="50%" width="50%"}
 
 
 
